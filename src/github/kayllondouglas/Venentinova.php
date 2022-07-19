@@ -11,12 +11,12 @@ class Venentinova extends PluginBase {
   public function onEnable()
   {
     self::$core = $this;
-    $this->getLogger()->info("");
+    $this->getLogger()->info("§aVenentinova is now enabled.");
   }
 
   public function onDisable()
   {
-    $this->getLogger()->info("");
+    $this->getLogger()->info("§cVenentinova is now disabled.");
   }
 
   public static function getCore(): Venentinova {
