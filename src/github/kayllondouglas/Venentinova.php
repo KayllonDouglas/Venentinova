@@ -1,6 +1,6 @@
 <?php
 
-namespace github\kayllondougals;
+namespace github\kayllondouglas;
 
 use pocketmine\plugin\PluginBase;
 
